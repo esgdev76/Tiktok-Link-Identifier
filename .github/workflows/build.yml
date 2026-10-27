@@ -1,4 +1,4 @@
-name: Build APK
+name: Tiktok Identifier APK
 
 on:
   push:
