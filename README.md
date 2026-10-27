@@ -76,27 +76,12 @@ The app is a single Android activity built around a `WebView` that loads `tiktok
 ---
 
 ## Install
+- Scroll Down To Releases And Download
+"Tiktok Link Identifier v1.0.apk".
+- Go To Your Downloads Folder.
+- Find The Application And Install!
 
-### Build with GitHub Actions (no programming needed)
-
-This repository contains a workflow that builds the APK automatically.
-
-1. Open the **Actions** tab and select **Build APK**.
-2. Wait for the build to finish with a green check. Pushing a commit starts a build, and **Run workflow** starts one by hand.
-3. Open the finished run and download the **TikTokLinkPicker-apk** artifact.
-4. Unzip it to get `app-debug.apk`, copy it to your phone and open it.
-5. Allow **Install unknown apps** for your browser or file manager when Android asks.
-
-> Each cloud build is signed with a new debug key, so Android will not update over an older build. Uninstall the previous version first (you will need to log in to TikTok again).
-
-### Build with Android Studio
-
-1. Unzip `TikTokLinkPicker.zip` and open the `TikTokLinkPicker` folder in Android Studio.
-2. Let Gradle sync.
-3. Choose **Build → Build Bundle(s) / APK(s) → Build APK(s)**.
-4. The APK is at `app/build/outputs/apk/debug/app-debug.apk`.
-
----
+ ---
 
 ## Requirements
 
